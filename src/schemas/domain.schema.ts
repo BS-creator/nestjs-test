@@ -10,7 +10,6 @@ export class Domain {
         required: [true, 'Domain name must be defined'],
         unique: [true, 'Domain name must be unique'],
         type: String,
-
     })
     domainName: string;
 
